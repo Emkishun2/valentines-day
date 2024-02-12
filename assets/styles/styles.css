@@ -1,0 +1,47 @@
+body {
+    background-color: rgb(75, 165, 254);
+
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    Font-size: 20px;
+    background-image: url(../images/istockphoto-1397883482-612x612.jpg);
+    /*own comment*/
+    text-align: center; 
+}
+section{
+    background-color:rgb(93, 190, 254);
+    margin: auto 20%;
+    padding: 30px; 
+    border-color:rgb(21, 25, 254);
+    border-style:dotted; 
+    border-width: 10px;
+    border-radius: 10px; 
+
+}
+
+form{
+    background-color:rgb(22, 93, 246);
+    color:rgb(3, 1, 105)
+}
+
+h1{
+    font-size: 48px;
+}
+
+em{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: normal;
+    font-size: 80px;
+}
+
+.css{
+    color:rgb(2, 9, 140);
+}
+
+.html{
+    color:rgb(16, 4, 186);
+}
+
+fieldset{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+}
