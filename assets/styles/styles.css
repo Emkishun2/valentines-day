@@ -1,47 +1,87 @@
-body {
-    background-color: rgb(75, 165, 254);
+body{
+    font-family: "Irish Grover", system-ui;
+    margin: 60px;
+    margin-top: 0px;
+    padding: 0;
+    background-color: black; 
+    }
 
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    Font-size: 20px;
-    background-image: url(../images/istockphoto-1397883482-612x612.jpg);
-    /*own comment*/
-    text-align: center; 
-}
-section{
-    background-color:rgb(93, 190, 254);
-    margin: auto 20%;
-    padding: 30px; 
-    border-color:rgb(21, 25, 254);
-    border-style:dotted; 
-    border-width: 10px;
-    border-radius: 10px; 
-
-}
-
-form{
-    background-color:rgb(22, 93, 246);
-    color:rgb(3, 1, 105)
-}
-
-h1{
-    font-size: 48px;
-}
-
-em{
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+nav{
+    background-color: black;
+    font-family: "Irish Grover", system-ui;
+    font-size: 20px;
     font-style: normal;
-    font-size: 80px;
+    /* added the three "fonts" but had no changes to the navigation menu */
+    display: flex; 
+    justify-content: space-between;
+    padding: 20px 10%; 
+    }
+
+#main-menu{
+    display: flex;
+    align-items: center;
+    gap: 40px;
 }
 
-.css{
-    color:rgb(2, 9, 140);
+#main-menu li{
+    list-style: none;
 }
 
-.html{
-    color:rgb(16, 4, 186);
+.dropdown{
+    display: none;
+    position: absolute;
+    margin: 0px;
 }
 
-fieldset{
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 30px;
+.sub-menu:hover .dropdown {
+    display:block;
+    
+}
+
+.logo{
+    color: yellow;
+    font-family: "Just Me Again Down Here", cursive;
+    font-size: 60px;
+    font-style: normal;
+    padding: 0px 5%;
+    text-decoration: none; /* Remove underline */ 
+}
+
+
+#main-menu button, #main-menu a {
+    background-color: black;
+    font-family: "Irish Grover", system ui;
+    font-size: 17px; 
+    transition: color .2s;
+    text-decoration: none;
+    color: white;
+    border-width: 0;
+    font-weight: none; 
+
+/* the navigation bar  */
+}
+
+/* About Me Button */
+#main-menu button:nth-of-type(0):hover {
+    color:  #fc6128; 
+}
+
+/* Resume Link */
+#main-menu a:hover {
+    color: #7D8D98; 
+}
+
+/* Criminology Button */
+#main-menu button:nth-of-type(1):hover {
+    color:  #fc6128; 
+}
+
+/* Journalism Button */
+#main-menu button:nth-of-type(2):hover {
+    color: #fc6128; 
+}
+
+/* Graphic Design Button */
+#main-menu button:nth-of-type(3):hover {
+    color: #fc6128; 
 }
